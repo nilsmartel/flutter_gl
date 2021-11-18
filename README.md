@@ -15,13 +15,13 @@ Now this is only support draw to FBO. then share the FBO texture to Native side.
 
 ### import
 
-```
+```dart
 import 'package:flutter_gl/flutter_gl.dart';
 ```
 
 ### Usage
 
-```
+```dart
 int width = 200;
 int height = 200;
 num dpr = 1.0;
@@ -53,7 +53,7 @@ flutterGlPlugin.updateTexture(sourceTexture);
 
 Clone or download this repo
 
-```
+```sh
 cd flutter_gl/flutter_gl/example
 
 flutter run
